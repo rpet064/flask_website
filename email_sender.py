@@ -1,8 +1,7 @@
 import smtplib
-email = "Pencilcasetester@gmail.com"
-password = "xGE81tW3b#$azA"
-my_email = "rpether@hotmail.co.nz"
-
+email = "SENDER_EMAIL"
+password = "PASSWORD"
+my_email = "RECIEVING_EMAIL"
 
 class EmailSender:
     def __init__(self, message):
